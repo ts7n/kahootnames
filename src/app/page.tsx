@@ -39,7 +39,7 @@ export default function Home() {
   }, [name]);
 
   return (
-    <div className="w-full lg:w-[35%] lg:scale-125 transition duration-200 border-2 scale-105 border-gray-200 bg-gray-500 rounded-2xl lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2">
+    <div className="w-full lg:w-1/2 lg:scale-125 transition duration-200 border-2 scale-105 border-gray-200 bg-gray-500 rounded-2xl lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2">
       <div className="flex flex-col lg:flex-row lg:gap-5 lg:divide-x-2 lg:divide-stone-200 font-display">
         <div className="flex flex-col justify-between p-8">
           <div>
